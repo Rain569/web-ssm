@@ -27,7 +27,13 @@ public class UserController {
 
     @Resource
     private StudentMapper studentMapper;
- //项目： http://blog.csdn.net/gallenzhang/article/details/51932152a
+ //项目： http://blog.csdn.net/gallenzhang/article/details/51932152
+    //bbbccc
+    /**
+    * @date:2017/7/14 18:45
+    * @author:312171aa
+    * @description:
+    */
     @RequestMapping("/showUser")
     public String showUser(HttpServletRequest request, Model model){
         log.info("查询所有用户信息");
