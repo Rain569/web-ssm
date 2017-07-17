@@ -47,4 +47,14 @@ public class UserController {
         return "showUser";
     }
 
+    /**
+    * @date:2017/7/17 9:43
+    * @author:312171
+    * @description: 
+    */
+    public String showAll(){
+        return "";
+    }
+    
+
 }
