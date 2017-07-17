@@ -28,7 +28,7 @@ public class UserController {
     @Resource
     private StudentMapper studentMapper;
  //项目： http://blog.csdn.net/gallenzhang/article/details/51932152
-    //bbbccc
+    // @zhang
     /**
     * @date:2017/7/14 18:45
     * @author:312171aa
