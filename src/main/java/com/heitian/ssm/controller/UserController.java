@@ -18,7 +18,7 @@ import java.util.List;
  */
 
 @Controller
-@RequestMapping("/user")
+    @RequestMapping("/user")
 public class UserController {
 
     private Logger log = Logger.getLogger(UserController.class);
@@ -27,7 +27,6 @@ public class UserController {
 
     @Resource
     private StudentMapper studentMapper;
- //项目： http://blog.csdn.net/gallenzhang/article/details/51932152
     @RequestMapping("/showUser")
     public String showUser(HttpServletRequest request, Model model){
         log.info("查询所有用户信息");
